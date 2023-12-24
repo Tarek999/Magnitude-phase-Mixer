@@ -14,7 +14,7 @@ This task is applied on a 2D signal (i.e. image) just for clarity but the same c
 Note: the software should impose that the two images have the same size. i.e. when opening the second image, the sw checks it has the same size of the one previously opened. Otherwise, give an error message.
 
 * A mixing panel where an output will be formed based on the mix of two components. Each one of these components are determined from:
-* <ol>
+ <ol>
   <li>which image (via a combo or drop-menu). Available images are image 1, and image 2.</li>
   <li>Which component of the image FT (via a combo or drop-menu). Available components are: Magnitude, Phase, Real, Imaginary, uniform magnitude (i.e. all magnitude values are set to 1), uniform phase (i.e. all phase values are set to 0).</li>
   <li>the mixing ratio (via a slider ranging from 0 to 100%).</li>

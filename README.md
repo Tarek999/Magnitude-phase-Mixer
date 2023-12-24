@@ -4,6 +4,7 @@ Designing and implementing a piece of software that explains the relative import
 This task is applied on a 2D signal (i.e. image) just for clarity but the same concept applies to any signal.
 
 ## The software have the following features:
+
 * Ability to open and show two images. For each image, the software have two displays (one fixed display for the image, while the second display can show several components based on a combo-box/drop-menu selection of 1) FT Magnitude, 2) FT Phase, 3) FT Real component, 4) FT Imaginary component.
 Note: the software should impose that the two images have the same size. i.e. when opening the second image, the sw checks it has the same size of the one previously opened. Otherwise, give an error message.
 * A mixing panel where an output will be formed based on the mix of two components. Each one of these components are determined from:
